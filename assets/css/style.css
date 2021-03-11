@@ -1,0 +1,99 @@
+body{
+	margin: 0;
+}
+.container{
+	max-width: 1000px;
+	margin: auto;
+}
+
+nav ul,
+nav ul li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.header{
+	background-color: #DDD;
+	margin-bottom: 20px; 
+}
+
+.header nav{
+	max-width: 1000px;
+	margin: auto;
+}
+
+.header li{
+	display: inline-block ;
+	height: 40px;
+	line-height: 40px;
+	
+}
+
+.header li a{
+	text-decoration: none;
+	color: #000;
+	display: block;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.header li a:hover{
+	background-color: #EEE;
+}
+
+table th{
+	background-color: #DDD;
+	padding: 5px;
+}
+table td{
+	border: 1px solid #DDD;
+	padding: 5px;
+}
+table tr:hover td{
+	background-color: #EEE;
+}
+#busca{
+	outline: 0;
+	border: 0;
+}
+
+table a {
+	color: #0000FF;
+	text-decoration: none;
+}
+
+table a:hover{
+	text-decoration: underline;
+}
+
+.form input[type=text],
+.form select,
+.form textarea{
+	width: 100%;
+	height: 30px;
+	font-size: 13px;
+	padding-left: 10px;
+	border: 2px solid #DDD;
+	outline: 0;
+}
+
+.form input[type=submit]{
+	background-color: #CCC;
+	padding: 5px, 10px;
+	border-radius: 10px;
+	font-size: 15px;
+	font-weight:  bold;
+	width: 150px;
+	height: 30px;
+	outline: 0;
+}
+
+.warning{
+	border: 1px solid #FF0000;
+	background-color:#FF5555;
+	padding: 10px;
+	font-size: 14px;
+	color:#FFF;
+	margin-bottom: 10px;
+}
